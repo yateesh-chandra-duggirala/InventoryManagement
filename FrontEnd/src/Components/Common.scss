@@ -1,0 +1,359 @@
+.adminboard-body{
+    .grid1{
+        position: absolute;
+        .space{
+            margin-top: 0px;
+        }
+    }
+    .grid2{
+        position:absolute;
+        margin-top: 450px;
+        width:1100px;
+    }
+}
+.adminnav-body{
+    .label{
+        height: 70px;
+        width:1365;
+        background-color: black;
+        display: flex;
+        .logo{
+            font-size: 50px;
+            width:220px;
+            font-weight:700;
+            height:100px;
+            background: linear-gradient(to left,
+            blue,
+            white,
+            blue,
+            white);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        .home{
+            margin-left: 650px;
+            color:white;
+        }
+        .employee{
+            margin-left: 30px;
+            color:white;
+        }
+        .items{
+            margin-left: 30px;
+            color:white;
+        }
+    
+    }
+}
+.employeenav-body{
+    .label{
+        height: 70px;
+        width:1365;
+        background-color: black;
+        display: flex;
+        .logo{
+            font-size: 50px;
+            width:220px;
+            font-weight:700;
+            height:100px;
+            background: linear-gradient(to left,
+            blue,
+            white,
+            blue,
+            white);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        .home{
+            margin-left: 750px;
+            color:white;
+        }
+        .items{
+            margin-left: 50px;
+            color:white;
+        }
+    }
+}
+.employee-body{
+    .app-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .grid-btn{
+        margin-top:30px;
+        h1{
+            color:black;
+            margin-top:20px;
+            margin-left:600px;
+        }
+        .button{
+            margin-left:1120px;
+            margin-top: 0px;
+            position:absolute;
+            background-color: rgb(4, 4, 8);
+        }
+        .buttonnew{
+            margin-left:20px;
+            position:absolute;
+            background-color: rgb(4, 4, 8);
+        }
+    }
+    .btn{
+        margin-left:1150px;
+        background-color: black;
+        color:white;
+        padding: 10px;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top:70px;
+    }
+    
+    th,
+    tr {
+        border: 1px solid #ffffff;
+        color:white;
+    }
+    th {
+    background-color: rgb(4, 4, 8);
+    }
+
+    td {
+    background-color: rgb(230, 236, 240);
+    }
+    .last-grid{
+        margin-top: 30px;
+        margin-left:500px;
+    }
+}
+.addemployee{
+    .employee-popup{
+        height:420px;
+        background-color:black;
+        .register-form{
+            margin-left:115px;
+            h1{
+                text-shadow: #201e1e;
+                margin-top:-0px;
+                margin-left:70px;
+                color:rgb(250, 247, 247);
+            }
+            .all-fields{
+                margin-top: 20px;
+                .field-container{
+                    display:flex;
+                    .textbox{
+                        display:flex;
+                        margin-left:-30px;
+                        margin-top:20px;
+                        color:rgb(12, 11, 11);
+                        .text{
+                            .MuiInput-root {
+                                border-bottom: 1px solid white !important;
+                            }
+                            .MuiInputLabel-root {
+                                color: white !important;
+                            }
+                            color-scheme: dark;
+                        }
+                    }
+                }
+                .button-label{
+                    margin-top:50px;
+                    .button{
+                        margin-left: 130px;
+                        padding-left: 40px;
+                        padding-right:40px;
+                        color:rgb(8, 8, 8);
+                        background-color:rgb(238, 243, 238);
+                    }
+                    .button:hover{
+                        background-color:rgb(27, 34, 27);
+                        color:white;
+                    }
+                    .button:disabled{
+                        background-color:rgb(98, 102, 98);
+                        color:rgb(221, 208, 208);
+                        cursor:not-allowed;
+                    }
+                }
+            
+            }
+        }
+    }
+}
+
+.additem{
+    .item-popup{ 
+        height:400px;
+        background-color:black;
+        .register-form{
+            position:absolute;
+            margin-top:25;
+            margin-left:115px;
+            h1{
+                text-shadow: #201e1e;
+                margin-top:-0px;
+                margin-left:100px;
+                color:rgb(250, 247, 247);
+            }
+            .all-items{
+                margin-top: 20px;
+                .field-container{
+                    display:flex;
+                    .textbox{
+                        display:flex;
+                        margin-left:-30px;
+                        margin-top:20px;
+                        color:rgb(12, 11, 11);
+                        .text{
+                            .MuiInput-root {
+                                border-bottom: 1px solid white !important;
+                            }
+                            .MuiInputLabel-root {
+                                color: white !important;
+                            }
+                            color-scheme: dark;
+                        }
+                    }
+                }
+                .button-label{
+                    margin-top:40px;
+                    .button{
+                        margin-left: 120px;
+                        padding-left: 40px;
+                        padding-right:40px;
+                        color:rgb(8, 8, 8);
+                        background-color:rgb(238, 243, 238);
+                    }
+                    .button:hover{
+                        background-color:rgb(27, 34, 27);
+                        color:white;
+                    }
+                    .button:disabled{
+                        background-color:rgb(98, 102, 98);
+                        color:rgb(221, 208, 208);
+                        cursor:not-allowed;
+                    }
+                }
+            }
+        }
+    }
+}
+.inventory-body{
+    .grid-btn{
+        margin-top:120px;
+        margin-left: 550px;
+        position: absolute;
+    }
+    .profile{
+        width:1366px;
+        height:100px;
+        background-color: rgb(230, 236, 240);
+        margin-top: -20px;
+        border-bottom:1px solid black;
+    }
+    .btn{
+        margin-left:1150px;
+        background-color: black;
+        color:white;
+        padding: 10px;
+        position:absolute;
+        margin-top: 200px;
+    }
+    .btn1{
+        margin-left:70px;
+        background-color: black;
+        color:white;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        position:absolute;
+        margin-top: 200px;
+    }
+    table {
+        border-collapse: collapse;
+        width:100%;
+        position:absolute;
+        margin-top:300px;
+    }
+    th,
+    tr {
+        border: 1px solid #ffffff;
+        color:white;
+    }
+    th {
+    background-color: rgb(4, 4, 8);
+    }
+    td {
+    background-color: rgb(230, 236, 240);
+    }
+    .last-grid{
+        margin-top: 300px;
+        margin-left: 550px;
+        position:absolute;
+    }
+}
+.profile-body{
+    .image{
+        width:80px;
+        height:80px;
+        border: 1px black;
+        margin-top: 10px;
+        margin-left:50px;
+    }
+    .grid-container{
+        display:flex;
+        margin-left: 150px;
+        margin-top: -70px;
+    }
+    .userid{
+        margin-left: 50px;
+    }
+    .name{
+        margin-left: 50px;
+    }
+    .email{
+        margin-left:50px;
+    }
+}
+.showprofile-body{
+    .all{
+        margin-left: 600px;
+        .heading{
+            .profile{
+                
+            }
+            .divider{
+                margin-left:-250px;
+                width:700px;
+            }
+            .image{
+                height:100px;
+                width:100px;
+                border:1px solid black;
+                border-radius: 50%;
+                margin-left: 30px;
+            }
+            .password{
+                margin-left: 100px;
+                margin-top: 30px;
+                background-color: black;
+                position:absolute;
+            }
+        }
+        .grid-container{
+            margin-left: -50px;
+            .name{
+                padding-right: 50px;
+            }
+            .button{
+                margin-left: 100px;
+                background-color: black;
+                color:white;
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+.body{
+    background-image: url('https://blog.yoobic.com/hubfs/supermarket%20shelves%20cropped.jpeg');
+    width:1366px;
+    height:625px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .logo{
+        font-size: 50px;
+        width:220px;
+        font-weight:700;
+        height:100px;
+        background: linear-gradient(to left,
+        blue,
+        white,
+        blue,
+        white);
+        margin-left: 600px;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    .register-popup{
+        width:600px;
+        height:450px;
+        background-color:rgba(8, 8, 7, 0.7);
+        position: absolute;
+        margin-left:410px;
+        border:1px solid #555555;
+        border-radius: 10px;
+        .register-form{
+            position:absolute;
+            margin-top:25;
+            margin-left:115px;
+            h1{
+                text-shadow: #201e1e;
+                margin-top:-0px;
+                margin-left:130px;
+                color:rgb(250, 247, 247);
+            }
+            .field-container{
+                display:flex;
+                .textbox{
+                    display:flex;
+                    margin-left:-30px;
+                    margin-top:20px;
+                    color:rgb(12, 11, 11);
+                    .text{
+                        .MuiInput-root {
+                            border-bottom: 1px solid white !important;
+                        }
+                        .MuiInputLabel-root {
+                            color: white !important;
+                        }
+                        color-scheme: dark;
+                    }
+                }
+            }
+            .button-label{
+                margin-top:30px;
+                .button{
+                    margin-left: 100px;
+                    padding-left: 40px;
+                    padding-right:40px;
+                    color:rgb(8, 8, 8);
+                    background-color:rgb(238, 243, 238);
+                    margin-top: -30px;
+                }
+                .button2{
+                    margin-left: -200px;
+                    margin-top: 50px;
+                    color:white;
+                }
+                .button:hover{
+                    background-color:rgb(27, 34, 27);
+                    color:white;
+                }
+                .button:disabled{
+                    background-color:rgb(98, 102, 98);
+                    color:rgb(221, 208, 208);
+                    cursor:not-allowed;
+                }
+            }
+        }
+    }
+}
